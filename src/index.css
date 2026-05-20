@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom background/scrollbars styling to support an elegant art exhibition aesthetic */
+body {
+  background-color: #fcfcf9;
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background-color: rgba(0,0,0,0.08);
+}
+

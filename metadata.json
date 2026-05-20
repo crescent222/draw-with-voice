@@ -1,0 +1,6 @@
+{
+  "name": "Singing Expressionist Canvas",
+  "description": "An interactive media art project mapping real-time vocal characteristics and hand gestures into dynamic abstract expressionist paintings in the style of Kandinsky and Van Gogh.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
